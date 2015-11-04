@@ -1,0 +1,23 @@
+﻿{
+  "name": "BiliForeign",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "帮助B站海外用户观看版权番",
+  "icons": { "128": "icon_128.png" },
+  "background":  {
+    "scripts": ["header.js" ]
+  },
+  "browser_action": {
+    "default_icon": "icon_128.png",
+    "default_title": "BiliForeign"
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.bilibili.com/video/*",
+	"*://interface.bilibili.com/playurl*"
+  ]
+}
